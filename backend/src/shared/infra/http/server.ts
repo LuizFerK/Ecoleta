@@ -1,13 +1,21 @@
-import express, { Request, Response, NextFunction } from 'express';
+import 'reflect-metadata';
 
+import express, { Request, Response, NextFunction } from 'express';
+import path from 'path';
+
+import 'express-async-errors';
 import AppError from '../../errors/AppError';
 import routes from './routes';
+import '@shared/infra/typeorm';
+import '@shared/container';
 
 const app = express();
 
 app.use(express.json());
 
 app.use(routes);
+
+app.use('/uploads', express.static(path.resolve(__dirname, '..', '..', '..', '..', 'uploads')))
 
 app.use((err: Error, request: Request, response: Response, _: NextFunction) => {
   if (err instanceof AppError) {

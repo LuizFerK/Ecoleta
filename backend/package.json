@@ -11,9 +11,11 @@
   },
   "dependencies": {
     "express": "^4.17.1",
+    "express-async-errors": "^3.1.1",
     "mysql": "^2.14.1",
     "pg": "^8.2.1",
-    "reflect-metadata": "^0.1.10",
+    "reflect-metadata": "^0.1.13",
+    "tsyringe": "^4.3.0",
     "typeorm": "0.2.25",
     "typeorm-seeding": "^1.6.1"
   },
