@@ -29,7 +29,9 @@ class ListPointsRepository {
       })
     })
 
-    return findPoints;
+    const serializedPoints = findPoints.filter(point => point.city === city && point.uf === uf)
+
+    return serializedPoints;
   }
 }
 
