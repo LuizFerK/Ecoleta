@@ -19,7 +19,7 @@ export default class CreatePointItems1591155331972 implements MigrationInterface
           },
           {
             name: 'item_id',
-            type: 'uuid',
+            type: 'integer',
           },
           {
             name: 'created_at',
@@ -55,5 +55,6 @@ export default class CreatePointItems1591155331972 implements MigrationInterface
   }
 
   public async down(queryRunner: QueryRunner): Promise<void> {
+    await queryRunner.dropTable('point_items');
   }
 }

@@ -11,8 +11,8 @@ import PointItems from '@modules/Points/infra/typeorm/entities/PointItems';
 
 @Entity('items')
 class Item {
-  @PrimaryGeneratedColumn('uuid')
-  id: string;
+  @PrimaryGeneratedColumn('increment')
+  id: number;
 
   @Column()
   image: string;

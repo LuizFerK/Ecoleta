@@ -41,13 +41,13 @@ export default class CreatePoints1591151158829 implements MigrationInterface {
             name: 'latitude',
             type: 'decimal',
             precision: 9,
-            scale: 3,
+            scale: 6,
           },
           {
             name: 'longitude',
             type: 'decimal',
             precision: 9,
-            scale: 3,
+            scale: 6,
           },
           {
             name: 'created_at',

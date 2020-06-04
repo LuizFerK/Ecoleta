@@ -38,7 +38,10 @@ class Point {
   @Column()
   longitude: number
 
-  @OneToMany(() => PointItems, point_items => point_items.point)
+  @OneToMany(() => PointItems, point_items => point_items.point, {
+    eager: true,
+    cascade: true,
+  })
   point_items: PointItems[];
 
   @CreateDateColumn()

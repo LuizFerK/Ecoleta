@@ -26,7 +26,9 @@ class PointItems {
   @Column()
   item_id: string;
 
-  @ManyToOne(() => Item, item => item.point_items)
+  @ManyToOne(() => Item, item => item.point_items, {
+    eager: true,
+  })
   @JoinColumn({ name: 'item_id' })
   item: Item;
 
