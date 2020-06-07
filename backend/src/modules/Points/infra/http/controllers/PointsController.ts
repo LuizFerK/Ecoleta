@@ -20,7 +20,14 @@ export default class PointsController {
       items: parsedItems,
     });
 
-    response.json(points);
+    const serializedPoint = points.map(point => {
+      return {
+        image_url: `http://192.168.10.115:3333/uploads/${point.image}`,
+        ...point,
+      }
+    })
+
+    response.json(serializedPoint);
   }
 
   public async show(request: Request, response: Response) {
@@ -30,12 +37,16 @@ export default class PointsController {
 
     const point = await findPoint.execute(id);
 
-    return response.json(point);
+    const serializedPoint = {
+      image_url: `http://192.168.10.115:3333/uploads/${point.image}`,
+      ...point,
+    }
+
+    return response.json(serializedPoint);
   }
 
   public async create(request: Request, response: Response) {
     const {
-      image,
       name,
       email,
       whatsapp,
@@ -46,10 +57,12 @@ export default class PointsController {
       items
     } = request.body;
 
+    const formatedItems = items.split(', ');
+
     const createPoint = container.resolve(CreatePointService);
 
     const point = await createPoint.execute({
-      image: "https://images.unsplash.com/photo-1542838132-92c53300491e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60",
+      image: request.file.filename,
       name,
       email,
       whatsapp,
@@ -57,7 +70,7 @@ export default class PointsController {
       longitude,
       city,
       uf,
-      items,
+      items: formatedItems,
     });
 
     return response.json(point);

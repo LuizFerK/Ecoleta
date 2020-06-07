@@ -28,6 +28,7 @@ interface RouteParams {
 interface Point {
   id: string;
   image: string;
+  image_url: string;
   name: string;
   email: string;
   whatsapp: string;
@@ -90,7 +91,7 @@ const Detail: React.FC = () => {
           <Icon name="arrow-left" size={20} color="#34cb79" />
         </TouchableOpacity>
 
-        <PointImage source={{ uri: point.image }} />
+        <PointImage source={{ uri: point.image_url }} />
 
         <PointTitle>{point.name}</PointTitle>
         <PointItems>
