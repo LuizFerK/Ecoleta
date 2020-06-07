@@ -16,7 +16,7 @@ class ListItemsService {
     const serializedItems = items.map(item => {
       return {
         ...item,
-        image: `http://localhost:3333/uploads/${item.image}`,
+        image: `http://192.168.10.115:3333/uploads/${item.image}`,
       }
     })
 
