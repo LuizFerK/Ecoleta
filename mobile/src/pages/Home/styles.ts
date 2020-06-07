@@ -27,6 +27,16 @@ export const Description = styled.Text`
   line-height: 24px;
 `;
 
+export const SelectContainer = styled.View`
+  height: 60px;
+  background-color: #fff;
+  border-radius: 10px;
+  margin-bottom: 8px;
+  padding: 24px 24px;
+  font-size: 16px;
+  justify-content: center;
+`;
+
 export const Button = styled.TouchableOpacity`
   background-color: #34cb79;
   height: 60px;
