@@ -1,12 +1,13 @@
 <h1 align="center">
   Ecoleta
   <hr />
-  <img alt="Point1" src="./github/point1.png" />
-  <img alt="Point2" src="./github/point2.png" />
-  <img alt="Point3" src="./github/point3.png" />
-  <img alt="Point4" src="./github/point4.png" />
+  <img alt="Home" src="./.github/home.png" />
+  <img alt="Point1" src="./.github/point1.png" />
+  <img alt="Point2" src="./.github/point2.png" />
+  <img alt="Point3" src="./.github/point3.png" />
+  <img alt="Point4" src="./.github/point4.png" />
   <hr />
-	<img alt="Logo" src="./github/logo.svg" />
+	<img alt="Logo" src="./.github/logo.svg" />
 </h1>
 <p align="center">
 	The application has been created to help people find collect points to deposit their wastes. Created with Node.js ReactJS and React Native, all with Typescript.
