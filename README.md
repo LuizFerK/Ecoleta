@@ -40,4 +40,4 @@ To start the aplications in your device, first, clone this repository in a new f
 
 A new tab will be open in your browser with the application (frontend).
 
-The app will load in your mobile device (mobile)...
+The app will load in your mobile device (mobile).
