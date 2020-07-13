@@ -106,7 +106,7 @@ In case you don't have an SSH key on your GitHub account, you can clone the proj
 
 ### Mobile
 
-1. Open the folder and run ```yarn``` to install the dependencies;
+1. Open the **mobile** folder and run ```yarn``` to install the dependencies;
 2. In ```src/services/api.ts``` change the baseURL for your IPv4 address: ```baseURL: 'http://YOUR-IPV4-ADDRESS:3333'```;
 > Example: ```baseURL: 'http://192.168.1.11:3333'```
 3. Connect your device to your computer and enable the [debugger mode](https://developer.android.com/studio/debug/dev-options) on the developer tools;
