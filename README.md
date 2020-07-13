@@ -125,7 +125,7 @@ In case you don't have an SSH key on your GitHub account, you can clone the proj
 - Celebrate
 - TypeORM
 
-### React.js (web)
+### ReactJS (web)
 - Axios
 - Styled Components
 - Leaflet (Maps)
