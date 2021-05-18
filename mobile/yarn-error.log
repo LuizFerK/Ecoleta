@@ -1,5 +1,5 @@
 Arguments: 
-  /usr/bin/node /usr/bin/yarn
+  /usr/bin/node /usr/bin/yarn upgrade
 
 PATH: 
   /home/luiz/.local/bin:/home/luiz/.zinit/polaris/sbin:/home/luiz/.zinit/polaris/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/home/luiz/.yarn/bin:/home/luiz/Android/Sdk/emulator:/home/luiz/Android/Sdk/tools:/home/luiz/Android/Sdk/tools/bin:/home/luiz/Android/Sdk/platform-tools
@@ -14,7 +14,7 @@ Platform:
   linux x64
 
 Trace: 
-  Error: getaddrinfo EAI_AGAIN github.com
+  Error: getaddrinfo EAI_AGAIN codeload.github.com
       at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:69:26)
 
 npm manifest: 

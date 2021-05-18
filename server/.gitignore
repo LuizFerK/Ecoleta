@@ -6,3 +6,4 @@ tmp/
 temp/
 uploads/*.jpg
 ormconfig.json
+yarn-error.log
