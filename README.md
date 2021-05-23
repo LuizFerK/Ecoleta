@@ -8,19 +8,19 @@
 
 <p align="center">
 	<a href="https://github.com/LuizFerK">
-		<img alt="Author" src="https://img.shields.io/badge/author-Luiz%20Fernando-8E54E9?style=flat" />
+		<img alt="Author" src="https://img.shields.io/badge/author-Luiz%20Fernando-34CB79?style=flat" />
 	</a>
 	<a href="#">
-		<img alt="Languages" src="https://img.shields.io/github/languages/count/LuizFerK/Ecoleta?color=8E54E9&style=flat" />
+		<img alt="Languages" src="https://img.shields.io/github/languages/count/LuizFerK/Ecoleta?color=34CB79&style=flat" />
 	</a>
 	<a href="hhttps://github.com/LuizFerK/Ecoleta/stargazers">
-		<img alt="Stars" src="https://img.shields.io/github/stars/LuizFerK/Ecoleta?color=8E54E9&style=flat" />
+		<img alt="Stars" src="https://img.shields.io/github/stars/LuizFerK/Ecoleta?color=34CB79&style=flat" />
 	</a>
 	<a href="https://github.com/LuizFerK/Ecoleta/network/members">
-		<img alt="Forks" src="https://img.shields.io/github/forks/LuizFerK/Ecoleta?color=8E54E9&style=flat" />
+		<img alt="Forks" src="https://img.shields.io/github/forks/LuizFerK/Ecoleta?color=34CB79&style=flat" />
 	</a>
 	<a href="https://github.com/LuizFerK/Ecoleta/graphs/contributors">
-		<img alt="Contributors" src="https://img.shields.io/github/contributors/LuizFerK/Ecoleta?color=8E54E9&style=flat" />
+		<img alt="Contributors" src="https://img.shields.io/github/contributors/LuizFerK/Ecoleta?color=34CB79&style=flat" />
 	</a>
 </p>
 
